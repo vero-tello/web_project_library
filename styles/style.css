@@ -335,31 +335,41 @@
 
 .footer {
   box-sizing: border-box;
+  background-color: #1f1f1f;
+  color: #ffffff;
 }
 
 .footer__columns {
+  padding: 60px 80px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .footer__column_content_hours {
+  margin-left: auto;
 }
 
 .footer__column_content_social {
+  margin-left: 80px;
 }
 
 .footer__logo {
+  height: 80px;
+  width: 58px;
 }
 
 .footer__column-heading {
+  margin-bottom: 20px;
 }
 
 .footer__list {
-  /* El siguiente código elimina los estilos predeterminados del navegador para las listas */
   list-style-type: none;
   padding: 0;
   margin: 0;
 }
 
 .footer__list-item {
+  margin-top: 16px;
 }
 
 .footer__column-link {
@@ -368,7 +378,11 @@
 }
 
 .footer__social-icon {
+  height: 16px;
+  width: 16px;
+  margin-right: 10px;
 }
 
 .footer__copyright {
+  margin-top: 100px;
 }
